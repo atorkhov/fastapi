@@ -2,7 +2,7 @@ version: 2
 jobs:
   unit_test:
     docker:
-      - image: circleci/python:3.6.1
+      - image: cimg/python:3.9.2
 
     working_directory: ~/repo
 
