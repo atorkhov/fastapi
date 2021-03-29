@@ -40,3 +40,6 @@ workflows:
   build:
     jobs:
       - unit_test
+      - heroku/deploy-via-git:
+          requires:
+            - unit_test
